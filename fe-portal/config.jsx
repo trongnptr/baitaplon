@@ -1,1 +1,0 @@
-export const homeAPI = 'http://localhost:8080/api'

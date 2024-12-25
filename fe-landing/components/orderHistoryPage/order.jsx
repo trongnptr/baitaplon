@@ -11,10 +11,7 @@ const Order = (props) => {
         totalOrderValue,
         stateId,
         stateName,
-        createdAt,
-        setIsCreateFeedbackModalOpen,
-        setIsUpdateFeedbackModalOpen,
-        setProductVariantIdForFeedBack
+        createdAt
     } = props;
 
     return (
@@ -41,10 +38,6 @@ const Order = (props) => {
                             size={orderItem.size}
                             price={orderItem.price}
                             stateId={stateId}
-                            hasFeedback={orderItem.has_feedback}
-                            setIsCreateFeedbackModalOpen={setIsCreateFeedbackModalOpen}
-                            setIsUpdateFeedbackModalOpen={setIsUpdateFeedbackModalOpen}
-                            setProductVariantIdForFeedBack={setProductVariantIdForFeedBack}
                         />
                     ))}
             </div>

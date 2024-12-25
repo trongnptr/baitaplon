@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const db = require('./configs/database');
 const setRouter = require('./routes/index');
-const { createRecordsDefault } = require('./configs/createRecordsDefault');
+
 
 const server = express();
 const port = 8080;
@@ -25,7 +25,6 @@ setRouter(server);
 
 (async () => {
   await db.connect();
-  await createRecordsDefault();
 })()
 
 server.listen(port, () => {

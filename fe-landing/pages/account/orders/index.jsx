@@ -7,63 +7,6 @@ import Order from '@/components/orderHistoryPage/order';
 import orderService from '@/services/orderService';
 import useCustomerStore from '@/store/customerStore';
 
-// export const fakeOrderList = [
-//     {
-//         order_id: '71852912157786',
-//         state_id: 4,
-//         state_name: 'Chờ Xác Nhận',
-//         order_items: [
-//             {
-//                 product_variant_id: 3,
-//                 name: 'Áo thun thể thao nam Active ProMax',
-//                 image: 'https://media.coolmate.me/cdn-cgi/image/quality=80/image/May2022/pro_s2_trang_ping.jpg',
-//                 quantity: 2,
-//                 colour: 'Trắng',
-//                 size: 'L',
-//                 price: 179000,
-//                 has_feedback: true
-//             },
-//             {
-//                 product_variant_id: 19,
-//                 name: 'Quần Jeans Clean Denim dáng Regular S3',
-//                 image: 'https://media.coolmate.me/cdn-cgi/image/quality=80/image/May2022/pro_s2_trang_ping.jpg',
-//                 quantity: 1,
-//                 colour: 'Xanh Đậm',
-//                 size: '29',
-//                 price: 599000
-//             }
-//         ],
-//         total_order_value: 977000,
-//         created_at: '2023-03-16T03:22:48.000Z'
-//     },
-//     {
-//         order_id: '71852912157786',
-//         state_id: 1,
-//         state_name: 'Chờ Xác Nhận',
-//         order_items: [
-//             {
-//                 product_variant_id: 3,
-//                 name: 'Áo thun thể thao nam Active ProMax',
-//                 image: 'https://media.coolmate.me/cdn-cgi/image/quality=80/image/May2022/pro_s2_trang_ping.jpg',
-//                 quantity: 2,
-//                 colour: 'Trắng',
-//                 size: 'L',
-//                 price: 179000
-//             },
-//             {
-//                 product_variant_id: 19,
-//                 name: 'Quần Jeans Clean Denim dáng Regular S3',
-//                 image: 'https://media.coolmate.me/cdn-cgi/image/quality=80/image/May2022/pro_s2_trang_ping.jpg',
-//                 quantity: 1,
-//                 colour: 'Xanh Đậm',
-//                 size: '29',
-//                 price: 599000
-//             }
-//         ],
-//         total_order_value: 977000,
-//         created_at: '2023-03-16T03:22:48.000Z'
-//     }
-// ];
 
 const OrderHistoryPage = () => {
     const customerId = useCustomerStore((state) => state.customerInfor?.customerId);

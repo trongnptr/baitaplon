@@ -2,7 +2,7 @@
   "name": "clothes-web-shop-fe-landing",
   "version": "0.1.0",
   "private": true,
-  "author": "Lê Tấn Phát",
+  "author": "Trongdz",
   "license": "ISC",
   "scripts": {
     "dev": "next dev --port 3001",

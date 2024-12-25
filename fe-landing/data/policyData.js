@@ -18,7 +18,7 @@ export const policyList = [
     },
     {
         icon: <FaPhoneVolume />,
-        des: 'Hotline 1900.27.27.37 hỗ trợ từ 8h30 - 22h mỗi ngày'
+        des: 'Hotline 0123456789 hỗ trợ từ 8h30 - 22h mỗi ngày'
     },
     {
         icon: <FaUserCheck />,

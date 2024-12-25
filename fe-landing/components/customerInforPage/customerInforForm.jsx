@@ -54,7 +54,7 @@ const CustomerInforForm = ({ email = '', customerName = '', phoneNumber = '', ad
             <div className="infor-tab-item col-12 row d-flex align-items-center">
                 <div className="col-3">Địa chỉ</div>
                 <div className="col-7">
-                    <div className="mb-3"><InputField name='address' control={control} placeholder={'Địa chỉ (Ví dụ: 112/12 3/2 Hưng Lợi, Ninh Kiều)'} /></div>
+                    <div className="mb-3"><InputField name='address' control={control} placeholder={'Địa chỉ (Ví dụ: Đắc Sở,Hoài Đức,Hà Nội)'} /></div>
                 </div>
             </div>
             <div className="infor-tab-item col-12 row d-flex align-items-center">

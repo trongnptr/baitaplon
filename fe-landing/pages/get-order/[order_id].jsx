@@ -11,7 +11,7 @@ const fakeOrderDetail = {
     order_id: '71828451735555',
     state_id: 4,
     state_name: 'Đã Giao',
-    created_at: '2023-03-25T01:43:36.000Z',
+    created_at: '2024-12-25T01:43:36.000Z',
     order_items: [
         {
             name: 'Áo thun thể thao nam Active ProMax',

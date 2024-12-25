@@ -1,6 +1,6 @@
 const express = require('express');
 
-const adminRouter = require('./admin');
+
 const customerRouter = require('./customer');
 const colourRouter = require('./colour');
 const sizeRouter = require('./size');
@@ -10,8 +10,6 @@ const product_variantRouter = require('./product_variant');
 const order = require('./order');
 
 function setRoute(server) {
-
-    server.use('/api/admin', adminRouter);
 
     server.use('/api/customer', customerRouter);
 

@@ -12,40 +12,8 @@ const OrderItem = (props) => {
         colour,
         size,
         price,
-        stateId,
-        hasFeedback,
-        setIsCreateFeedbackModalOpen,
-        setIsUpdateFeedbackModalOpen,
-        setProductVariantIdForFeedBack
+        stateId
     } = props;
-
-    const showCreateFeedbackModal = (e) => {
-        e.preventDefault();
-        setProductVariantIdForFeedBack(productVariantId);
-        setIsCreateFeedbackModalOpen(true);
-    };
-
-    const showUpdateFeedbackModal = (e) => {
-        e.preventDefault();
-        setProductVariantIdForFeedBack(productVariantId);
-        setIsUpdateFeedbackModalOpen(true);
-    };
-
-    const renderFeedbackBtn = () => {
-        if (stateId == 4)
-            if (hasFeedback)
-                return (
-                    <div onClick={showUpdateFeedbackModal} className="feedback-btn border-radius">
-                        <span>Sửa đánh giá</span>
-                    </div>
-                );
-            else
-                return (
-                    <div onClick={showCreateFeedbackModal} className="feedback-btn border-radius">
-                        <span>Đánh giá sản phẩm</span>
-                    </div>
-                );
-    };
 
     return (
         <div className="order-item">

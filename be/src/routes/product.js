@@ -8,13 +8,9 @@ router.post('/create', ProductController.create);
 
 router.put('/update', ProductController.update);
 
-router.get('/admin/list', ProductController.listAdminSide);
-
 router.get('/customer/list', ProductController.listCustomerSide);
 
 router.get('/customer/detail/:product_id', ProductController.detailCustomerSide);
-
-router.get('/admin/detail/:product_id', ProductController.detailAdminSide);
 
 router.get('/customer/list-colour/:product_id', ProductController.listColour);
 
